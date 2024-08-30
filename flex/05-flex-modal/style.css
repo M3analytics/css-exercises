@@ -16,6 +16,8 @@ body {
 }
 
 .modal {
+  display: flex;
+  
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -33,6 +35,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
+  align-content: flex-start;
 }
 
 .close-button {
